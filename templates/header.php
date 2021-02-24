@@ -25,11 +25,11 @@
       <img src="<?=$BASE_URL?>/img/logo.svg" alt="Blog codar">
     </a>
     <nav>
-      <ul>
-        <li><a href="<?=$BASE_URL?>">Home</a></li>
-        <li><a href="#">Categorias</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="<?=$BASE_URL?>contact.php">Contato</a></li>
+      <ul id="navbar">
+        <li><a href="<?=$BASE_URL?>" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">Categorias</a></li>
+        <li><a href="#" class="nav-link">Sobre</a></li>
+        <li><a href="<?=$BASE_URL?>contact.php" class="nav-link">Contato</a></li>
       </ul>
     </nav>
   </header>
