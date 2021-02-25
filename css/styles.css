@@ -194,6 +194,13 @@ main {
 #tag-list a, #categories-list a{ 
   color: #777;
   transition: .5s;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1.2;
+
+
+
 }
 
 #tag-list a:hover, #categories-list a:hover{ 
@@ -211,6 +218,18 @@ footer {
   color: #FFF;
   padding: 50px 0;
 }
+
+
+ /* 768px SCREEN*/
+
+
+@media(max-width: 768px){
+  #posts-container{
+    max-width: 
+  } 
+
+}
+
 
 
 /* MOBILE */
@@ -254,5 +273,13 @@ footer {
 
   .img-container img {
     width: 100%;
-  }  
+  } 
+  
+  #tag-list, #categories-list {
+    padding-left: 8px;
+  } 
+  
+  
+  
+  
 }
